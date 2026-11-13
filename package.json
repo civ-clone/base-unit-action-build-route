@@ -19,6 +19,7 @@
     "ts:compile": "tsc --build tsconfig.json"
   },
   "devDependencies": {
+    "@civ-clone/civ1-science": "github:civ-clone/civ1-science",
     "@civ-clone/civ1-unit": "github:civ-clone/civ1-unit",
     "@civ-clone/civ1-world": "github:civ-clone/civ1-world",
     "@civ-clone/core-city": "^0.1.19",
@@ -41,13 +42,15 @@
     "@civ-clone/base-unit-action-build-railroad": "^0.1.4",
     "@civ-clone/base-unit-action-build-road": "^0.1.4",
     "@civ-clone/base-unit-action-goto": "^0.1.9",
+    "@civ-clone/base-unit-trait-terraforms": "^0.1.0",
     "@civ-clone/core-data-object": "^0.1.17",
     "@civ-clone/core-game": "^0.1.8",
     "@civ-clone/core-pending-effect": "^0.1.2",
     "@civ-clone/core-player": "^0.1.10",
     "@civ-clone/core-rule": "^0.1.6",
+    "@civ-clone/core-science": "^0.1.9",
     "@civ-clone/core-strategy": "^0.1.6",
-    "@civ-clone/core-unit": "^0.1.26",
+    "@civ-clone/core-unit": "^0.1.31",
     "@civ-clone/core-world": "^0.1.18",
     "@civ-clone/core-world-path": "^0.1.2"
   }
