@@ -19,3 +19,7 @@ square of the way where it's offered the build (civ-clone/web-renderer#195).
   left to build, or when the way is blocked. Selecting the worker (which clears its busy rule) or setting it to
   something else ends the order and leaves the worker be.
 - The order is saved with the game, between squares and part way through a build.
+- `lib/routeOrders`: `routeOrders(table, trait = Terraforms)(unit, playerResearchRegistry)` lists the route orders a
+  unit may be given, from a ruleset's table of `[Order, Advance | null]` rows: none unless the unit has `trait`, and
+  otherwise each order whose advance its player knows (`null`: none needed), in the table's order. A ruleset's action
+  rules offer the orders by it, and a renderer can read the same list.
